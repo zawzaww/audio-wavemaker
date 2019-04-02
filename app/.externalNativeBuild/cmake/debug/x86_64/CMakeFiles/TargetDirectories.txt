@@ -1,0 +1,3 @@
+/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/native-lib.dir
