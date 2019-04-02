@@ -11,6 +11,24 @@
 	"cppFileExtensions" : [ "cpp" ],
 	"libraries" : 
 	{
+		"Oscillator-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "Oscillator",
+			"buildCommand" : "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/x86 --target Oscillator",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android26 --gcc-toolchain=/home/zawzaw/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/zawzaw/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -DOscillator_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/src/main/cpp/Oscillator.cpp",
+					"workingDirectory" : "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/release/obj/x86/libOscillator.so",
+			"toolchain" : "7178787172364326205"
+		},
 		"native-lib-Release-x86" : 
 		{
 			"abi" : "x86",

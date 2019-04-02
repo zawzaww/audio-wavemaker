@@ -49,6 +49,35 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
 # =============================================================================
+# Object build statements for SHARED_LIBRARY target Oscillator
+
+build CMakeFiles/Oscillator.dir/Oscillator.cpp.o: CXX_COMPILER__Oscillator /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/src/main/cpp/Oscillator.cpp
+  DEFINES = -DOscillator_EXPORTS
+  DEP_FILE = CMakeFiles/Oscillator.dir/Oscillator.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC
+  IN_ABS = /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/src/main/cpp/Oscillator.cpp
+  OBJECT_DIR = CMakeFiles/Oscillator.dir
+  OBJECT_FILE_DIR = CMakeFiles/Oscillator.dir
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target Oscillator
+
+
+#############################################
+# Link the shared library /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libOscillator.so
+
+build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libOscillator.so: CXX_SHARED_LIBRARY_LINKER__Oscillator CMakeFiles/Oscillator.dir/Oscillator.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now
+  LINK_LIBRARIES = -latomic -lm
+  OBJECT_DIR = CMakeFiles/Oscillator.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libOscillator.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libOscillator.so
+  TARGET_PDB = Oscillator.so.dbg
+# =============================================================================
 # Object build statements for SHARED_LIBRARY target native-lib
 
 build CMakeFiles/native-lib.dir/native-lib.cpp.o: CXX_COMPILER__native-lib /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/src/main/cpp/native-lib.cpp
@@ -80,6 +109,8 @@ build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermedia
 # =============================================================================
 # Target aliases.
 
+build Oscillator: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libOscillator.so
+build libOscillator.so: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libOscillator.so
 build libnative-lib.so: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so
 build native-lib: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so
 # =============================================================================
@@ -93,7 +124,7 @@ build native-lib: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/ap
 #############################################
 # The main all target.
 
-build all: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so
+build all: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libOscillator.so /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so
 
 #############################################
 # Make the all target the default.

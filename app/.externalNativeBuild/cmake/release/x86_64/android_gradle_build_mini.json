@@ -11,6 +11,12 @@
       "buildCommand": "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",
       "abi": "x86_64",
       "output": "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so"
+    },
+    "Oscillator-Release-x86_64": {
+      "artifactName": "Oscillator",
+      "buildCommand": "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/x86_64 --target Oscillator",
+      "abi": "x86_64",
+      "output": "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/release/obj/x86_64/libOscillator.so"
     }
   }
 }
