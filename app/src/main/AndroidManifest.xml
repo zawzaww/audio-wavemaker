@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.frnt.zawzaw.audiowavemaker"
-    android:sharedUserId="andorid.uid.system"
     tools:ignore="ImpliedTouchscreenHardware,MissingLeanbackLauncher">
 
     <uses-feature

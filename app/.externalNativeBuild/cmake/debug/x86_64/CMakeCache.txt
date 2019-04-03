@@ -198,6 +198,9 @@ Project_BINARY_DIR:STATIC=/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/src/main/cpp
 
+//Dependencies for target
+jni-bridge_LIB_DEPENDS:STATIC=
+
 //Path to a library.
 log-lib:FILEPATH=/home/zawzaw/Android-SDK/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/26/liblog.so
 
