@@ -6,6 +6,12 @@
     "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
   ],
   "libraries": {
+    "AudioEngine-Debug-arm64-v8a": {
+      "artifactName": "AudioEngine",
+      "buildCommand": "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/debug/arm64-v8a --target AudioEngine",
+      "abi": "arm64-v8a",
+      "output": "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/arm64-v8a/libAudioEngine.so"
+    },
     "native-lib-Debug-arm64-v8a": {
       "artifactName": "native-lib",
       "buildCommand": "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/debug/arm64-v8a --target native-lib",

@@ -39,6 +39,35 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
   pool = console
   restat = 1
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target AudioEngine
+
+build CMakeFiles/AudioEngine.dir/AudioEngine.cpp.o: CXX_COMPILER__AudioEngine /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/src/main/cpp/AudioEngine.cpp
+  DEFINES = -DAudioEngine_EXPORTS
+  DEP_FILE = CMakeFiles/AudioEngine.dir/AudioEngine.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC
+  IN_ABS = /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/src/main/cpp/AudioEngine.cpp
+  OBJECT_DIR = CMakeFiles/AudioEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles/AudioEngine.dir
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target AudioEngine
+
+
+#############################################
+# Link the shared library /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libAudioEngine.so
+
+build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libAudioEngine.so: CXX_SHARED_LIBRARY_LINKER__AudioEngine CMakeFiles/AudioEngine.dir/AudioEngine.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now
+  LINK_LIBRARIES = -latomic -lm
+  OBJECT_DIR = CMakeFiles/AudioEngine.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  SONAME = libAudioEngine.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libAudioEngine.so
+  TARGET_PDB = AudioEngine.so.dbg
 
 #############################################
 # Utility command for edit_cache
@@ -109,7 +138,9 @@ build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermedia
 # =============================================================================
 # Target aliases.
 
+build AudioEngine: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libAudioEngine.so
 build Oscillator: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libOscillator.so
+build libAudioEngine.so: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libAudioEngine.so
 build libOscillator.so: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libOscillator.so
 build libnative-lib.so: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so
 build native-lib: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so
@@ -124,7 +155,7 @@ build native-lib: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/ap
 #############################################
 # The main all target.
 
-build all: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libOscillator.so /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so
+build all: phony /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libAudioEngine.so /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libOscillator.so /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so
 
 #############################################
 # Make the all target the default.

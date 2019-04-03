@@ -1,4 +1,5 @@
 /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/AudioEngine.dir
 /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
 /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/Oscillator.dir
 /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir

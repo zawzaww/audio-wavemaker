@@ -6,6 +6,12 @@
     "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
   ],
   "libraries": {
+    "AudioEngine-Release-x86_64": {
+      "artifactName": "AudioEngine",
+      "buildCommand": "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/x86_64 --target AudioEngine",
+      "abi": "x86_64",
+      "output": "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/release/obj/x86_64/libAudioEngine.so"
+    },
     "native-lib-Release-x86_64": {
       "artifactName": "native-lib",
       "buildCommand": "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/x86_64 --target native-lib",

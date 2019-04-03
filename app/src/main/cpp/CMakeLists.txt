@@ -4,6 +4,8 @@ add_library(native-lib SHARED native-lib.cpp)
 
 add_library(Oscillator SHARED Oscillator.cpp)
 
+add_library(AudioEngine SHARED AudioEngine.cpp)
+
 find_library( # Sets the name of the path variable.
         log-lib
 

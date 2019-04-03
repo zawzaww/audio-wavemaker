@@ -12,6 +12,12 @@
       "abi": "armeabi-v7a",
       "output": "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so"
     },
+    "AudioEngine-Release-armeabi-v7a": {
+      "artifactName": "AudioEngine",
+      "buildCommand": "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/armeabi-v7a --target AudioEngine",
+      "abi": "armeabi-v7a",
+      "output": "/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/release/obj/armeabi-v7a/libAudioEngine.so"
+    },
     "Oscillator-Release-armeabi-v7a": {
       "artifactName": "Oscillator",
       "buildCommand": "/home/zawzaw/Android-SDK/cmake/3.6.4111459/bin/cmake --build /home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/.externalNativeBuild/cmake/release/armeabi-v7a --target Oscillator",
