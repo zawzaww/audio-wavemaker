@@ -1,7 +1,0 @@
-# ninja log v5
-6	1966	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	313656910a00e33f
-1968	2102	0	/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	3c619c0716dc5d6c
-69	22167	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	313656910a00e33f
-22170	22807	0	/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libnative-lib.so	3c619c0716dc5d6c
-3	1167	0	CMakeFiles/Oscillator.dir/Oscillator.cpp.o	b8341c392a378284
-1168	1634	0	/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/x86/libOscillator.so	2d7972179410caee

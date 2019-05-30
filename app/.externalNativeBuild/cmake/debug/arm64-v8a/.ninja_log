@@ -1,7 +1,0 @@
-# ninja log v5
-2	1340	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	fc3d728ca8cd41ad
-1341	1592	0	/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	1ebf0d369cb9a9fd
-4	5036	0	CMakeFiles/Oscillator.dir/Oscillator.cpp.o	32361522407257ab
-5039	5554	0	/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/arm64-v8a/libOscillator.so	437a569cce747f66
-48	8949	0	CMakeFiles/native-lib.dir/native-lib.cpp.o	fc3d728ca8cd41ad
-8963	9933	0	/home/zawzaw/Frontiir/Sample-projects/Audio-WaveMaker/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	1ebf0d369cb9a9fd
