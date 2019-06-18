@@ -1,10 +1,15 @@
 cmake_minimum_required(VERSION 3.4.1)
 
-add_library(native-lib SHARED native-lib.cpp)
+add_library( # Sets the name of the library.
+        native-lib
 
-add_library(Oscillator SHARED Oscillator.cpp)
+        # Sets the library as a shared library.
+        SHARED
 
-add_library(AudioEngine SHARED AudioEngine.cpp)
+        # Provides a relative path to your source file(s).
+        native-lib.cpp
+        AudioEngine.cpp
+        Oscillator.cpp)
 
 find_library( # Sets the name of the path variable.
         log-lib
@@ -18,4 +23,6 @@ target_link_libraries( # Specifies the target library.
 
         # Links the target library to the log library
         # included in the NDK.
-        ${log-lib})
+        ${log-lib}
+
+        aaudio)
